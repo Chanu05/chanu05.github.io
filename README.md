@@ -2,14 +2,14 @@
 # Main Objective
 * What are the client's requests?
 
-The head of marketing are looking for the top YouTubers in order to run marketing campaigns throughout the rest of the year. Highest return on investment is the most important factor.
+The head of marketing is looking for the top YouTubers in order to run marketing campaigns throughout the rest of the year. Highest return on investment is the most important factor.
 * How can I help?
 By creating an interactive dashboard that showcases the top UK YouTubers, categorized by the following;
 * Subscriber Count
 * Total Views
 * Total Videos uploaded
 * Engagement metrics
-This approach will provide the marketing team with useful insight before decided which YouTuber(s) to collaborate with.
+This approach will provide the marketing team with useful insights before deciding which YouTuber(s) to collaborate with.
 # Data source
 Our data must include the following;
 * Channel Names
