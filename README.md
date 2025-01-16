@@ -1,2 +1,47 @@
 # Data Analysis Project 1: Top YouTubers 2024 
-# Abstract 
+# Main Objective
+* What is the client's requests?
+The head of marketing are looking for the top YouTubers in order to run marketing campaigns throughout the rest of the year. Highest return on investment is the most important factor.
+* How can I help?
+By creating an interactive dashboard that showcases the top UK YouTubers, categorized by the following;
+* Subscriber Count
+* Total Views
+* Total Videos uploaded
+* Engagement metrics
+This approach will provide the marketing team with useful insight before decided which YouTuber(s) to collaborate with.
+# Data source
+Our data must include the following;
+* Channel Names
+* Total subscribers
+* Total views
+* Total videos uploaded
+The data used for this project was sourced from Kaggle.
+# Project Stages
+1. Design
+2. Development
+3. Testing
+4. Analysis
+# Design
+## Dashboard Requirements
+To understand what components are needed in the dashboard, we must come up with a set of questions that need to be answered:
+1. Who are the top 10 YouTubers with the most subscribers?
+2. Which 3 channels have uploaded the most videos?
+3. Which 3 channels have the most views?
+4. Which 3 channels have the highest average views per video?
+5. Which 3 channels have the highest views per subscriber ratio?
+6. Which 3 channels have the highest subcriber engagement rate per video?
+If our dashboard is able to answer these questions, then it is safe to assume that the dashboard has effectively carried out it's purpose.
+## Dashboard mockup
+* What should the dashboard look like?
+Visuals to be included are;
+1. Table with all relevant data
+2. Treemap of Top YouTubers
+3. Scorecards for engagement statistics
+4. Horizontal bar chart to allow for quick and easy comparison
+## Tools used
+| Tool | Purpose |
+| --- | --- |
+| Excel | To explore the data |
+| SQL Server | To clean, test and analyze the data |
+| Power BI | To create the interactive dashboard |
+| GitHub | To host and document the project |
