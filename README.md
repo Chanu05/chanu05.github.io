@@ -58,6 +58,7 @@ Visuals to be included are;
 # Development
 
 ## The plan
+
 * What is the approach I am taking, from start to finish?
 
 1. Obtain the data from Kaggle
@@ -69,4 +70,79 @@ Visuals to be included are;
 7. Generate the findings based on the insights
 8. Document the project
 9. Publish the data to GitHub
+
+## Data exploration 
+
+During this stage, the data is scanned for errors, inconsistencies, weird characters, etc.
+Some issues found were:
+
+1. Channel ID and an '@' sign was found before the channel name in the same column - so we need to extract just the channel name from this.
+2. Some cells were in a different language - had to confirm if these bits of data was needed.
+3. Had more data than needed, so some were to be removed.
+
+## Data cleaning
+
+What do we mean by 'clean data'?
+* Only relevant columns needed
+* All data types should be appropriate
+* No columns should contain missing values (or null values)#
+
+Our cleaned data resulted in a total of 4 columns, each with 100 rows.
+
+| Column Name | Data Type | Nullable |
+| --- | --- | --- | 
+| channel_name | VARCHAR | NO |
+| total_subscribers | INTEGER | NO |
+| total_views | INTEGER | NO | 
+| total_videos | INTEGER | NO |
+
+## Transforming the data in SQL Server
+
+```sql
+/*
+
+# Data cleaning steps:
+
+1. Remove unnecessary columns by only selecting the ones we need.
+2. Extract the Youtube channel names from the first columns.
+3. Rename the column names.
+
+*/
+
+CREATE VIEW view_uk_youtubers_2024 AS
+
+SELECT
+	CAST(SUBSTRING(NOMBRE, 1, CHARINDEX('@', NOMBRE)-1) AS VARCHAR(100)) as channel_name,
+	total_subscribers,
+	total_views,
+	total_videos
+	
+
+FROM top_uk_youtubers_2024
+
+```
+
+# Testing
+
+Here are the data quality checks conducted: 
+
+## 1. Row count check 
+
+```sql
+
+-- 1. Row count check:
+
+SELECT
+  COUNT(*) AS no_of_rows
+FROM
+  view_uk_youtubers_2024;
+
+```
+
+
+
+
+
+
+
 
