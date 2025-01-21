@@ -367,6 +367,7 @@ Potential units sold per video = 11.15 million x 2% conversion rate = 223,000 un
 Potential revenue per video = 223,000 x $5 = $1,115,000
 Campaign cost = $50,000
 **Net profit = $1,115,000 - $50,000 = $1,065,000**
+```
 
 ** The most profitable YouTuber would be Dan Rhodes.**
 
