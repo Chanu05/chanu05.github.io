@@ -173,6 +173,8 @@ WHERE
 
 ### SQL Query
 
+```sql
+
 -- 4. Duplicate record check
 
 SELECT channel_name,
