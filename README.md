@@ -369,7 +369,7 @@ Campaign cost = $50,000
 **Net profit = $1,115,000 - $50,000 = $1,065,000**
 ```
 
-** The most profitable YouTuber would be Dan Rhodes.**
+**The most profitable YouTuber would be Dan Rhodes.**
 
 
 
