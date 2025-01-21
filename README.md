@@ -138,6 +138,131 @@ FROM
   view_uk_youtubers_2024;
 
 ```
+## Column Count check
+
+### SQL Query
+
+```sql
+
+-- 2. Column count check:
+SELECT COUNT(*) as column_count 
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'view_uk_youtubers_2024'
+
+```
+
+## Data Type check
+
+### SQL Query
+
+```sql
+
+-- 3. Data type check
+
+SELECT 
+	COLUMN_NAME,
+	DATA_TYPE
+	
+FROM 
+	INFORMATION_SCHEMA.COLUMNS
+WHERE
+	TABLE_NAME = 'view_uk_youtubers_2024'
+```
+
+## Duplicate count check
+
+### SQL Query
+
+-- 4. Duplicate record check
+
+SELECT channel_name,
+		COUNT(*) as duplicate_count
+
+from view_uk_youtubers_2024
+GROUP BY channel_name
+HAVING COUNT(*) > 1
+
+```
+
+# Visualization
+
+## Results
+
+* What does the dashboard look like?
+
+insert dashboard image here!!
+
+## DAX Measures
+
+### 1. Total Subscribers (M)
+
+```
+Total Subscribers (M) = 
+VAR million = 1000000
+VAR sumOfSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR totalSubscribers = DIVIDE(sumOfSubscribers, million)
+
+RETURN totalSubscribers
+```
+
+### 2. Total Views (B)
+
+```
+Total Views (B) = 
+VAR billion = 1000000000
+VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
+VAR totalViews = DIVIDE(sumOfTotalViews, billion)
+
+RETURN totalViews
+```
+
+### 3. Total Videos
+
+```
+Total Videos = 
+VAR totalVideos = SUM(view_uk_youtubers_2024[total_videos])
+
+RETURN totalVideos
+```
+
+### 4. Average Views Per Video (M)
+
+```
+Avg views per video (M) = 
+VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
+VAR sumOfTotalVideos = SUM(view_uk_youtubers_2024[total_videos])
+VAR avgViewsPerVideo = DIVIDE(sumOfTotalViews, sumOfTotalVideos, BLANK())
+VAR finalAvgViewsPerVideo = DIVIDE(avgViewsPerVideo, 1000000, BLANK())
+
+RETURN finalAvgViewsPerVideo
+```
+
+### 5. Subscriber Engagement Rate
+
+```
+Subscriber Engagement Rate = 
+VAR sumOfTotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR sumOfTotalVideos = SUM(view_uk_youtubers_2024[total_videos])
+VAR subscriberEngRate = DIVIDE(sumOfTotalSubscribers, sumOfTotalVideos, BLANK())
+
+RETURN subscriberEngRate
+```
+
+### 6. Views Per Subscriber
+
+```
+Views Per Subscriber = 
+VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
+VAR sumOfTotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR viewsPerSubscriber = DIVIDE(sumOfTotalViews, sumOfTotalSubscribers, BLANK())
+
+RETURN viewsPerSubscriber
+```
+
+
+
+
+
 
 
 
