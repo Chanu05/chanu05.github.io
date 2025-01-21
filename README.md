@@ -348,8 +348,27 @@ Campaign cost (one-time fee) = $50,000
 
 ```
 
+```
+-- DanTDM
+Average views per video = 5.34 million
+Product cost = $5
+Potential units sold per video = 5.34 million x %2 conversion rate = 106,800 units sold
+Potential revenue per video = 106,800 x $5 = $534,000
+Campaign cost (one-time fee) = $50,000
+**Net profit = $534,000 - $50,000 = $484,000
 
+```
 
+```
+-- Dan Rhodes
+Average views per video = 11.15 million
+Product cost = $5
+Potential units sold per video = 11.15 million x 2% conversion rate = 223,000 units sold
+Potential revenue per video = 223,000 x $5 = $1,115,000
+Campaign cost = $50,000
+**Net profit = $1,115,000 - $50,000 = $1,065,000**
+
+** The most profitable YouTuber would be Dan Rhodes.**
 
 
 
