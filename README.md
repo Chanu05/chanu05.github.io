@@ -4,7 +4,7 @@
 
 ![Project-intro-image](assets/images/Untitled-1.png) 
 
-# Table of Contents
+# Table of Contents:
 
 - [Main Objective](#Main-Objective)
 - [Data Source](#Data-source)
