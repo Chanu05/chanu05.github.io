@@ -3,23 +3,27 @@
 * What are the client's requests?
 
 The head of marketing is looking for the top YouTubers in order to run marketing campaigns throughout the rest of the year. Highest return on investment is the most important factor.
+
 * How can I help?
+* 
 By creating an interactive dashboard that showcases the top UK YouTubers, categorized by the following;
 * Subscriber Count
 * Total Views
 * Total Videos uploaded
 * Engagement metrics
+
 This approach will provide the marketing team with useful insights before deciding which YouTuber(s) to collaborate with.
 
 # Data source
 
 Our data must include the following;
+
 * Channel Names
 * Total subscribers
 * Total views
 * Total videos uploaded
 
-The data used for this project was sourced from Kaggle, which can be found [here.](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download).
+The data used for this project was sourced from Kaggle, which can be found [here.](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
 
 # Project Stages
 
@@ -32,17 +36,22 @@ The data used for this project was sourced from Kaggle, which can be found [here
 
 ## Dashboard Requirements
 To understand what components are needed in the dashboard, we must come up with a set of questions that need to be answered:
+
 1. Who are the top 10 YouTubers with the most subscribers?
 2. Which 3 channels have uploaded the most videos?
 3. Which 3 channels have the most views?
 4. Which 3 channels have the highest average views per video?
 5. Which 3 channels have the highest views per subscriber ratio?
 6. Which 3 channels have the highest subcriber engagement rate per video?
+   
 If our dashboard is able to answer these questions, then it is safe to assume that the dashboard has effectively carried out it's purpose.
 
 ## Dashboard mockup
+
 * What should the dashboard look like?
+  
 Visuals to be included are;
+
 1. Table with all relevant data
 2. Treemap of Top YouTubers
 3. Scorecards for engagement statistics
@@ -77,6 +86,7 @@ Visuals to be included are;
 ## Data exploration 
 
 During this stage, the data is scanned for errors, inconsistencies, weird characters, etc.
+
 Some issues found were:
 
 1. Channel ID and an '@' sign was found before the channel name in the same column - so we need to extract just the channel name from this.
@@ -86,9 +96,10 @@ Some issues found were:
 ## Data cleaning
 
 What do we mean by 'clean data'?
+
 * Only relevant columns needed
 * All data types should be appropriate
-* No columns should contain missing values (or null values)#
+* No columns should contain missing values (or null values)
 
 Our cleaned data resulted in a total of 4 columns, each with 100 rows.
 
@@ -207,7 +218,7 @@ HAVING COUNT(*) > 1
 
 * What does the dashboard look like?
 
-![dashboard](assets/images/powerbi_dashboard.png)
+![dashboard](assets/images/dashboard_vid.gif)
 
 ## DAX Measures
 
