@@ -1,3 +1,5 @@
+![Project-intro-image](assets/images/Untitled-1.png)
+
 # Data Analysis Project: Top YouTubers 2024 
 
 # Table of Contents
