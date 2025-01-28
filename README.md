@@ -48,6 +48,8 @@ Visuals to be included are;
 3. Scorecards for engagement statistics
 4. Horizontal bar chart to allow for quick and easy comparison
 
+![Dashboard-Mockup](assets/images/IMG_2526.JPEG)
+
 ## Tools used
 | Tool | Purpose |
 | --- | --- |
