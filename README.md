@@ -141,6 +141,9 @@ FROM
   view_uk_youtubers_2024;
 
 ```
+
+![row_count_check](assets/images/Row count check.png)
+
 ## Column Count check
 
 ### SQL Query
@@ -153,6 +156,9 @@ FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'view_uk_youtubers_2024'
 
 ```
+
+![Column_count_check](assets/images/Column count check.png)
+
 
 ## Data Type check
 
@@ -172,6 +178,9 @@ WHERE
 	TABLE_NAME = 'view_uk_youtubers_2024'
 ```
 
+![data_type_check](assets/images/data type check.png)
+
+
 ## Duplicate count check
 
 ### SQL Query
@@ -189,13 +198,16 @@ HAVING COUNT(*) > 1
 
 ```
 
+![duplicate_check](assets/images/duplicate count check.png)
+
+
 # Visualization
 
 ## Results
 
 * What does the dashboard look like?
 
-insert dashboard image here!!
+![dashboard](assets/images/powerbi dashboard.png)
 
 ## DAX Measures
 
@@ -431,6 +443,8 @@ ORDER BY
 
 **Output**
 
+![most_subscribers](assets/images/most subscribers sql.png)
+
 
 ### 2. YouTubers with the most videos uploaded
 
@@ -507,6 +521,11 @@ ORDER BY
 
 ```
 
+**Output**
+
+![most_uploaded](assets/images/most uploaded sql.png)
+
+
 ## 3. YouTubers with the most views
 
 **Calculation breakdown**
@@ -579,6 +598,11 @@ ORDER BY
 	net_profit DESC;
 
 ```
+
+**Output**
+
+![most_views](assets/images/most views sql.png)
+
 
 # Final Report
 
