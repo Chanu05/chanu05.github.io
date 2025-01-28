@@ -5,7 +5,7 @@
 The head of marketing is looking for the top YouTubers in order to run marketing campaigns throughout the rest of the year. Highest return on investment is the most important factor.
 
 * How can I help?
-* 
+  
 By creating an interactive dashboard that showcases the top UK YouTubers, categorized by the following;
 * Subscriber Count
 * Total Views
