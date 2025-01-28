@@ -142,7 +142,7 @@ FROM
 
 ```
 
-![row_count_check](assets/images/Row count check.png)
+![row_count_check](assets/images/Row_count_check.png)
 
 ## Column Count check
 
