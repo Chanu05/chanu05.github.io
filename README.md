@@ -3,6 +3,30 @@
 # Table of Contents
 
 - [Main Objective](#Main-Objective)
+- [Data Source](#Data-source)
+- [Project Stages](#Project-Stages)
+- [Design](#Design)
+	- [Dashboard Requirements](#Dashboard-Requirements)
+   	- [Dashboard Mockup](#Dashboard-mockup)
+   	- [Tools Used](#Tools-used)
+- [Development](#Development)
+  	- [The Plan](#The-plan)
+  	- [Data Exploration](#Data-exploration)
+  	- [Data Cleaning](#Data-cleaning)
+  	- [Transforming the data in SQL Server](#Transforming-the-data-in-SQL-Server)
+- [Testing](#Testing)
+	- [Row Count Check](#1.-Row-count-check)
+   	- [Column Count Check](#Column-Count-Check)
+  	- [Data Type Check](#Data-Type-check)
+  	- [Duplicate Count Check](#Duplicate-count-check)
+-[Visualization](#Visualization)
+	-[Results](#Results)
+	-[DAX Measures](#DAX-Measures)
+-[Analysis](#Analysis)
+	-[Findings](#Findings)
+	-[Validation](#Validation)
+-[Final Report](#Final-Report)
+  
 
 # Main Objective
 * What are the client's requests?
