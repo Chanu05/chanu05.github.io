@@ -1,4 +1,4 @@
-# Data Analysis Project 1: Top YouTubers 2024 
+# Data Analysis Project: Top YouTubers 2024 
 
 # Table of Contents
 
