@@ -18,7 +18,7 @@ Our data must include the following;
 * Total subscribers
 * Total views
 * Total videos uploaded
-The data used for this project was sourced from Kaggle.
+The data used for this project was sourced from [Kaggle](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download).
 
 # Project Stages
 
