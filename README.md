@@ -572,8 +572,47 @@ ORDER BY
 
 ```
 
+# Final Report
+
+## What are the findings?
+
+1. NoCopyrightSounds, Dan Rhodes and DanTDM are the channels with the most subscribers in the UK
+2. GRM Daily, Man City and Yogscast are the channels with the most videos uploaded
+3. DanTDM, Dan Rhodes and Mister Max are the channels with the most views
+4. Entertainment channels are better for a broader reach - these channels have the highest engagement statisitcs.
+
+## Recommendations
+
+1. Dan Rhodes is the best YouTuber to collaborate with to maximise visibility because this channel has the most subscribers in the UK
+2. GRM Daily, Man City and Yogscast should probably not be collaborated with in this project, considering the potential loss of money would not be worth the effort.
+3. Mister Max is the best YouTuber to collaborate with if we are interested in maximising reach due to him having the highest amount of views.
+4. The top 3 channels to collaborate with are NonCopyrightSounds, DanTDM and Dan Rhodes because they have the highest engagement, thus resulting in the highest potential ROI.
+
+## Potential ROI
+
+1. Collaboration deal with Dan Rhodes could result in a net profit of $1,065,000 per video.
+2. An influencer marketing contract with Mister Max could result in a net profit of $1,276,000.
+3. A Product placement campaign with DanTDM could generate $484,000 per video, or a one-off profit of $404,000 with a marketing campaign instead.
+4. NonCopyrightSounds could result in a net profit of $642,000 per video.
+   
+## Recommended Action Plan
+
+With regards to our analysis, we believe that the best channel to advance a long-term partnership deal with to promote the client's products is the Dan Rhodes channel.
+Once the expected milestones have been reached with the Dan Rhodes channel, we can consider advancing to partnerships with DanTDM, Mister Max and NoCopyrightSounds channels in the future.
+
+### What are the next steps?
+
+1. Reach out to the teams of each of the channels, starting with Dan Rhodes.
+2. Negotiate contracts within our allocated budgets.
+3. Start the campaigns and track the performances against the KPIs (key performance indicators) such as product sales, website traffic, etc.
+4. Review each of the campaigns, gather insights and look to improve based on feedback from channel audiences and customers.
 
 
+# Acknowledgements
+
+While a lot of hard work has gone in to this project, I would like to give credit to Stephen David-Williams for walking me through this project, and providing help throughout. Related links can be found below:
+**Stephen's LinkedIn : https://www.linkedin.com/in/stephen-david-williams-860428123/**
+**Stephen's YouTube : https://www.youtube.com/@sdw-online**
 
 
 
