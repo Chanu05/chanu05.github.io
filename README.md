@@ -19,13 +19,13 @@
    	- [Column Count Check](#Column-Count-Check)
   	- [Data Type Check](#Data-Type-check)
   	- [Duplicate Count Check](#Duplicate-count-check)
--[Visualization](#Visualization)
+- [Visualization](#Visualization)
 	-[Results](#Results)
 	-[DAX Measures](#DAX-Measures)
--[Analysis](#Analysis)
+- [Analysis](#Analysis)
 	-[Findings](#Findings)
 	-[Validation](#Validation)
--[Final Report](#Final-Report)
+- [Final Report](#Final-Report)
   
 
 # Main Objective
