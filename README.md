@@ -35,13 +35,13 @@ The head of marketing is looking for the top YouTubers in order to run marketing
 
 * How can I help?
   
-By creating an interactive dashboard that showcases the top UK YouTubers, categorized by the following;
+Creating an interactive dashboard that showcases the top UK YouTubers, categorized by the following;
 * Subscriber Count
 * Total Views
 * Total Videos uploaded
 * Engagement metrics
 
-This approach will provide the marketing team with useful insights before deciding which YouTuber(s) to collaborate with.
+This approach will provide the marketing team with useful insights before deciding which YouTuber(s) to collaborate with. I will also provide the client with my recommendations on how to advance with the project, based on the analysis of the data.
 
 # Data source
 
