@@ -1,6 +1,8 @@
-![Project-intro-image](assets/images/Untitled-1.png)
+# Data Analysis Project: Top YouTubers 2024
 
-# Data Analysis Project: Top YouTubers 2024 
+## By Chanu Thebuwanage 
+
+![Project-intro-image](assets/images/Untitled-1.png) 
 
 # Table of Contents
 
