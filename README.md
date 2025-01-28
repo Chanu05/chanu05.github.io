@@ -20,11 +20,11 @@
   	- [Data Type Check](#Data-Type-check)
   	- [Duplicate Count Check](#Duplicate-count-check)
 - [Visualization](#Visualization)
-	-[Results](#Results)
-	-[DAX Measures](#DAX-Measures)
+	- [Results](#Results)
+	- [DAX Measures](#DAX-Measures)
 - [Analysis](#Analysis)
-	-[Findings](#Findings)
-	-[Validation](#Validation)
+	- [Findings](#Findings)
+	- [Validation](#Validation)
 - [Final Report](#Final-Report)
   
 
