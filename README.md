@@ -26,6 +26,7 @@
 	- [Findings](#Findings)
 	- [Validation](#Validation)
 - [Final Report](#Final-Report)
+- [Acknowledgements](#Acknowledgements)
   
 
 # Main Objective
