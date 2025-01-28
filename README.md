@@ -142,7 +142,7 @@ FROM
 
 ```
 
-![row_count_check](assets/images/powerbi_dashboard.png)
+![row_count_check](assets/images/row_count_check.png)
 
 ## Column Count check
 
