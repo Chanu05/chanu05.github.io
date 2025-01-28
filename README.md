@@ -429,6 +429,8 @@ ORDER BY
 
 ```
 
+**Output**
+
 
 ### 2. YouTubers with the most videos uploaded
 
@@ -465,9 +467,11 @@ Campaign cost (11-videos at $5,000 each) = $55,000
 
 ```sql
 
+--1.
 DECLARE @conversionRate FLOAT = 0.02; -- The conversation rate, which is 2%
 DECLARE @productCost MONEY = 5.0; -- The product cost, which is $5 USD
-DECLARE @campaignCost MONEY = 50000.0; -- The campaign cost, which is $50,000 USD
+DECLARE @campaignCostPerVideo FLOAT = 5000.0; --The campaign cost per video at $5,000 USD
+DECLARE @numberOfVideos INT = 11;  -- The number of videos (11)
 
 
 --2.
@@ -487,18 +491,19 @@ SELECT
 	rounded_avg_views_per_video,
 	(rounded_avg_views_per_video * @conversionRate) AS potential_units_sold_per_video,
 	(rounded_avg_views_per_video * @conversionRate * @productCost) AS potential_revenue_per_video,
-	(rounded_avg_views_per_video * @conversionRate * @productCost) - @campaignCost AS net_profit
+	(rounded_avg_views_per_video * @conversionRate * @productCost) - @campaignCostPerVideo * @numberOfVideos AS net_profit
 FROM 
 	ChannelData	
 -- 4.
 WHERE 
-	channel_name IN ('GRM Daily', 'Man City', 'YOGSCAST Lewis & Simon')
+	channel_name IN ('GRM Daily','Man City','YOGSCAST Lewis & Simon')
 
 
 
 --5. 
 ORDER BY
-	net_profit DESC
+	net_profit DESC;
+
 
 ```
 
@@ -539,7 +544,8 @@ Campaign cost (3 month contract) = $130,000
 --1.
 DECLARE @conversionRate FLOAT = 0.02; -- The conversation rate, which is 2%
 DECLARE @productCost MONEY = 5.0; -- The product cost, which is $5 USD
-DECLARE @campaignCost MONEY = 50000.0; -- The campaign cost, which is $50,000 USD
+DECLARE @campaignCost MONEY = 130000.0; --The campaign cost per video at $130,000 USD
+
 
 
 --2.
@@ -564,14 +570,13 @@ FROM
 	ChannelData	
 -- 4.
 WHERE 
-	channel_name IN ('Mister Max', 'DanTDM', 'Dan Rhodes')
+	channel_name IN ('Mister Max','DanTDM','Dan Rhodes')
 
 
 
 --5. 
 ORDER BY
-	net_profit DESC
-
+	net_profit DESC;
 
 ```
 
