@@ -684,9 +684,9 @@ Once the expected milestones have been reached with the Dan Rhodes channel, we c
 
 While a lot of hard work has gone in to this project, I would like to give credit to Stephen David-Williams for walking me through this project, and providing help throughout. Related links can be found below:
 
-**Stephen's LinkedIn : https://www.linkedin.com/in/stephen-david-williams-860428123/**
+[Click here for Stephen's LinkedIn](https://www.linkedin.com/in/stephen-david-williams-860428123/)
 
-**Stephen's YouTube : https://www.youtube.com/@sdw-online**
+[Click here for Stephen's YouTube](https://www.youtube.com/@sdw-online)
 
 
 
